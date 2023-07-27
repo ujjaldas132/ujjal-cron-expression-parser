@@ -1,6 +1,7 @@
 #!/bin/bash
 
 # Clean the project and build the jar
+chmod +x ./gradlew
 ./gradlew clean build
 
 # runner command . update the cron expression
